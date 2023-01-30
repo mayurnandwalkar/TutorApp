@@ -1,8 +1,15 @@
-import React from 'react'
+import ContactUsSection from 'components/ContactUsSection'
+import Footer from 'components/Footer'
+import Header from 'components/Header'
+
 
 const contact = () => {
   return (
-    <div>contact</div>
+    <>
+      <Header />
+      <ContactUsSection />
+      <Footer />
+    </>
   )
 }
 

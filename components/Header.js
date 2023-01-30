@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import { useRouter } from 'next/router'
+import { BiSearch } from "react-icons/bi";
 
 
 
@@ -29,27 +31,27 @@ const Header = () => {
                                 <form class="search-box">
                                     <input type="text" class="input-search" placeholder="Search for anything" name="search" value="" />
                                     <button type="submit">
-
+                                        <BiSearch />
                                     </button>
                                 </form>
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#">Home</a>
+                                        <Link href={"/Home"} class="nav-link active">Home</Link>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">About Us</a>
+                                        <Link href={"/about"} class="nav-link">About Us</Link>
                                     </li>
                                     <li class="nav-item megamenu">
-                                        <a class="nav-link" href="index.html">Courses</a>
+                                        <Link href={"/about"} class="nav-link">Courses</Link>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">Blog</a>
+                                        <Link href={"/blogs"} class="nav-link">Blog</Link>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="authentication.html">Become A Teacher</a>
+                                        <Link href={"/blogs"} class="nav-link">Become A Teacher</Link>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="authentication.html">Contact Us</a>
+                                        <Link href={"/contact"} class="nav-link">Contact Us</Link>
                                     </li>
                                 </ul>
                                 <div class="others-option d-flex align-items-center">
