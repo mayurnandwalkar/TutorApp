@@ -51,17 +51,20 @@ const about = () => {
                         </div>
                     </div>
                 </div>
-                <div class="bulb"><img src="assets/images/bulb2.png" alt="image" /></div>
+                <div class="bulb">
+                    <img src="assets/images/bulb2.png" alt="image" />
+                </div>
             </div>
             <div class="ptb-100">
                 <div class="premium-access-area">
                     <div class="container">
-                        <div class="premium-access-content"><span class="sub-title">Go at your own pace</span>
+                        <div class="premium-access-content">
+                            <span class="sub-title">Go at your own pace</span>
                             <h2>Give their limitless potential unlimited access</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua.</p>
                             <a class="default-btn" href="#">
-                                 Give Premium Access</a>
+                                Give Premium Access</a>
                         </div>
                     </div>
                     <div class="shape3"><img src="assets/images/shape3.png" alt="image" /></div>
