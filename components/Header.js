@@ -18,9 +18,9 @@ const Header = () => {
                 <div class="edemy-nav">
                     <div class="container-fluid">
                         <div class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="index.html">
+                            <Link href={"/"} class="navbar-brand">
                                 <h2><b>Tutors</b></h2>
-                            </a>
+                            </Link>
                             <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="icon-bar top-bar"></span>
@@ -29,36 +29,35 @@ const Header = () => {
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <form class="search-box">
-                                    <input type="text" class="input-search" placeholder="Search for anything" name="search" value="" />
-                                    <button type="submit">
-                                        <BiSearch />
-                                    </button>
                                 </form>
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <Link href={"/Home"} class="nav-link active">Home</Link>
+                                        <Link href={"/"} class="nav-link active">Home</Link>
                                     </li>
                                     <li class="nav-item">
                                         <Link href={"/about"} class="nav-link">About Us</Link>
                                     </li>
-                                    <li class="nav-item megamenu">
-                                        <Link href={"/about"} class="nav-link">Courses</Link>
-                                    </li>
                                     <li class="nav-item">
-                                        <Link href={"/blogs"} class="nav-link">Blog</Link>
-                                    </li>
-                                    <li class="nav-item">
-                                        <Link href={"/blogs"} class="nav-link">Become A Teacher</Link>
+                                        <Link href={"/blogs"} class="nav-link">Blogs</Link>
                                     </li>
                                     <li class="nav-item">
                                         <Link href={"/contact"} class="nav-link">Contact Us</Link>
                                     </li>
+                                    <li class="nav-item">
+                                        <Link class="nav-link" href={""}>Schduler</Link>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <Link href={"/joinasteacher"} class="nav-link">Create Class</Link>
+                                            </li>
+                                            <li class="nav-item">
+                                                <Link href={"/joinclassforstudent"} class="nav-link">Join Class</Link>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                                 <div class="others-option d-flex align-items-center">
                                     <div class="option-item">
-                                        <a class="default-btn" href="#" onClick={handleLogRefButton}>
-                                            Login/Register<span></span>
-                                        </a>
+                                        <a class="default-btn" href="#" onClick={handleLogRefButton}>Login/Register</a>
                                     </div>
                                 </div>
                             </div>

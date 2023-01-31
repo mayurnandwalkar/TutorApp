@@ -1,3 +1,4 @@
+import { BiBook, BiGroup } from "react-icons/bi"
 
 const TopCources = () => {
     return (
@@ -14,7 +15,7 @@ const TopCources = () => {
                             <div class="single-courses-box">
                                 <div class="courses-image">
                                     <a class="d-block image" href="courses/56418231-8bf1-40c0-9ad1-b67dae108151.html">
-                                        <img src="assets/images/rz05daxt5ro56svpmdb8.jpg" alt="The Complete Digital Marketing Course - 12 Courses in 1" /></a>
+                                        <img src="assets/images/video-img2.jpg" alt="The Complete Digital Marketing Course - 12 Courses in 1" /></a>
                                     <a class="fav" href="#">
                                         <i class="flaticon-heart"></i>
                                     </a>
@@ -32,8 +33,8 @@ const TopCources = () => {
                                         Make Money as an Affiliate Marketer
                                         Land a High-Paying Job in Di...</p>
                                     <ul class="courses-box-footer d-flex justify-content-between align-items-center">
-                                        <li><i class="flaticon-agenda"></i> 20 Lessons</li>
-                                        <li><i class="flaticon-people"></i> 16 Students</li>
+                                        <li><BiBook/> 20 Lessons</li>
+                                        <li><BiGroup/> 16 Students</li>
                                     </ul>
                                 </div>
                             </div>
@@ -42,7 +43,7 @@ const TopCources = () => {
                             <div class="single-courses-box">
                                 <div class="courses-image">
                                     <a class="d-block image" href="courses/9839b20b-d45c-4c93-ba52-81d53839feb2.html">
-                                        <img src="assets/images/c4rde6bgusmnuwoymfve.jpg" alt="The Python Mega Course: Build 10 Real World Applications" /></a>
+                                        <img src="assets/images/video-img1.jpg" alt="The Python Mega Course: Build 10 Real World Applications" /></a>
                                     <a class="fav" href="#"><i class="flaticon-heart"></i></a>
                                     <div class="price shadow">$15</div>
                                 </div>
@@ -57,8 +58,8 @@ const TopCources = () => {
                                     <p>Go from a total beginner to a confident Python programmer
                                         Create 10 real-world Python programs (no t...</p>
                                     <ul class="courses-box-footer d-flex justify-content-between align-items-center">
-                                        <li><i class="flaticon-agenda"></i> 15 Lessons</li>
-                                        <li><i class="flaticon-people"></i> 12 Students</li>
+                                        <li><BiBook/> 15 Lessons</li>
+                                        <li><BiGroup/> 12 Students</li>
                                     </ul>
                                 </div>
                             </div>
@@ -67,7 +68,7 @@ const TopCources = () => {
                             <div class="single-courses-box">
                                 <div class="courses-image"><a class="d-block image"
                                     href="courses/6783ba4f-3c4b-43c8-b2d7-8940d5bb653a.html">
-                                    <img src="assets/images/rz05daxt5ro56svpmdb8.jpg" alt="The Complete React Js &amp; Redux Course - Build Modern Web Apps" /></a>
+                                    <img src="assets/images/success-story.jpg" alt="The Complete React Js &amp; Redux Course - Build Modern Web Apps" /></a>
                                     <a class="fav" href="#"><i class="flaticon-heart"></i></a>
                                     <div class="price shadow">$16</div>
                                 </div>
@@ -83,8 +84,8 @@ const TopCources = () => {
                                         Master React&#x27;s Compositional Model
                                         Build an Instag...</p>
                                     <ul class="courses-box-footer d-flex justify-content-between align-items-center">
-                                        <li><i class="flaticon-agenda"></i> 8 Lessons</li>
-                                        <li><i class="flaticon-people"></i> 4 Students</li>
+                                        <li><BiBook/> 8 Lessons</li>
+                                        <li><BiGroup/> 4 Students</li>
                                     </ul>
                                 </div>
                             </div>

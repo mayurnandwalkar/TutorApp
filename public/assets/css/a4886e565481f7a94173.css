@@ -258,7 +258,8 @@ a:hover {
     border-radius: 5px;
     font-weight: 700;
     font-size: 16px;
-    padding: 11px 30px 11px 55px
+    /* padding: 11px 30px 11px 55px */
+    padding: 12px;
 }
 
 .default-btn span {
@@ -15550,7 +15551,8 @@ blockquote:after {
     padding: 35px;
     margin-left: 15px;
     border-radius: 5px;
-    background-color: #fe4a55;
+    /* background-color: #fe4a55; */
+    background-color: #100f1f;
     background-image: url(/images/register-shape.jpg);
     background-position: 50%;
     background-size: cover;
@@ -15585,6 +15587,8 @@ blockquote:after {
     border: none;
     color: #fff;
     background-color: #c22b34;
+    /* background-color: #100f1f; */
+
     height: 50px;
     padding-left: 15px;
     border-radius: 5px;
