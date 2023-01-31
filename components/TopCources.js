@@ -14,7 +14,7 @@ const TopCources = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-courses-box">
                                 <div class="courses-image">
-                                    <a class="d-block image" href="courses/56418231-8bf1-40c0-9ad1-b67dae108151.html">
+                                    <a class="d-block image" href="#">
                                         <img src="assets/images/video-img2.jpg" alt="The Complete Digital Marketing Course - 12 Courses in 1" /></a>
                                     <a class="fav" href="#">
                                         <i class="flaticon-heart"></i>
@@ -27,14 +27,14 @@ const TopCources = () => {
                                         <span>EnvyTheme</span>
                                     </div>
                                     <h3 title="The Complete Digital Marketing Course - 12 Courses in 1">
-                                        <a href="courses/56418231-8bf1-40c0-9ad1-b67dae108151.html">The Complete Digital...</a>
+                                        <a href="#">The Complete Digital...</a>
                                     </h3>
                                     <p>Grow a Business Online From Scratch
                                         Make Money as an Affiliate Marketer
                                         Land a High-Paying Job in Di...</p>
                                     <ul class="courses-box-footer d-flex justify-content-between align-items-center">
-                                        <li><BiBook/> 20 Lessons</li>
-                                        <li><BiGroup/> 16 Students</li>
+                                        <li><BiBook /> 20 Lessons</li>
+                                        <li><BiGroup /> 16 Students</li>
                                     </ul>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const TopCources = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-courses-box">
                                 <div class="courses-image">
-                                    <a class="d-block image" href="courses/9839b20b-d45c-4c93-ba52-81d53839feb2.html">
+                                    <a class="d-block image" href="#">
                                         <img src="assets/images/video-img1.jpg" alt="The Python Mega Course: Build 10 Real World Applications" /></a>
                                     <a class="fav" href="#"><i class="flaticon-heart"></i></a>
                                     <div class="price shadow">$15</div>
@@ -53,13 +53,13 @@ const TopCources = () => {
                                         <span>EnvyTheme</span>
                                     </div>
                                     <h3 title="The Python Mega Course: Build 10 Real World Applications"><a
-                                        href="courses/9839b20b-d45c-4c93-ba52-81d53839feb2.html">The Python Mega
+                                        href="#">The Python Mega
                                         Cour...</a></h3>
                                     <p>Go from a total beginner to a confident Python programmer
-                                        Create 10 real-world Python programs (no t...</p>
+                                        Create 10 real-world Python programs...</p>
                                     <ul class="courses-box-footer d-flex justify-content-between align-items-center">
-                                        <li><BiBook/> 15 Lessons</li>
-                                        <li><BiGroup/> 12 Students</li>
+                                        <li><BiBook /> 15 Lessons</li>
+                                        <li><BiGroup /> 12 Students</li>
                                     </ul>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ const TopCources = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-courses-box">
                                 <div class="courses-image"><a class="d-block image"
-                                    href="courses/6783ba4f-3c4b-43c8-b2d7-8940d5bb653a.html">
+                                    href="#">
                                     <img src="assets/images/success-story.jpg" alt="The Complete React Js &amp; Redux Course - Build Modern Web Apps" /></a>
                                     <a class="fav" href="#"><i class="flaticon-heart"></i></a>
                                     <div class="price shadow">$16</div>
@@ -78,14 +78,14 @@ const TopCources = () => {
                                         <span>EnvyTheme</span>
                                     </div>
                                     <h3 title="The Complete React Js &amp; Redux Course - Build Modern Web Apps"><a
-                                        href="courses/6783ba4f-3c4b-43c8-b2d7-8940d5bb653a.html">The Complete React
+                                        href="#">The Complete React
                                         J...</a></h3>
                                     <p>Learn the modern way of building web applications
                                         Master React&#x27;s Compositional Model
                                         Build an Instag...</p>
                                     <ul class="courses-box-footer d-flex justify-content-between align-items-center">
-                                        <li><BiBook/> 8 Lessons</li>
-                                        <li><BiGroup/> 4 Students</li>
+                                        <li><BiBook /> 8 Lessons</li>
+                                        <li><BiGroup /> 4 Students</li>
                                     </ul>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@ const TopCources = () => {
                             <div class="courses-info">
                                 <p>Enjoy the top notch learning methods and achieve next level skills! You are the creator
                                     of your own career &amp; we will guide you through that. <a
-                                        href="authentication.html">Join Free Now.</a>.</p>
+                                        href="#">Join Free Now.</a>.</p>
                             </div>
                         </div>
                     </div>

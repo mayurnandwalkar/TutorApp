@@ -23,8 +23,8 @@ const ContactUsSection = () => {
                                         <h3>Contact</h3>
                                         <p>Mobile: <a href="tel:+44457895789">(+44) - 45789 - 5789</a></p>
                                         <p>GMail:
-                                            <a href="cdn-cgi/l/email-protection.html#cca4a9a0a0a38ca9a8a9a1b5e2afa3a1">
-                                                <span class="__cf_email__" data-cfemail="19717c757576597c7d7c7460377a7674">test@gmail.com</span>
+                                            <a href="#">
+                                                <span class="__cf_email__" data-cfemail="">test@gmail.com</span>
                                             </a>
                                         </p>
                                     </li>

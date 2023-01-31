@@ -1,4 +1,6 @@
- 
+import { BiBrain, BiCheckShield, BiWorld } from "react-icons/bi"
+
+
 const EducationForEveryone = () => {
     return (
         <>
@@ -13,39 +15,40 @@ const EducationForEveryone = () => {
                         <div class="col-lg-4 col-sm-6 col-md-6">
                             <div class="features-box">
                                 <div class="icon">
-                                    <i class="flaticon-brain-process"></i>
+                                    <BiBrain />
                                 </div>
                                 <h3>Learn the Latest Skills</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                <a class="link-btn" href="authentication.html">Start Now!</a>
+                                <a class="link-btn" href="#">Start Now!</a>
                                 <div class="back-icon">
-                                    <i class="flaticon-brain-process"></i>
+                                    <BiBrain />
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 col-md-6">
                             <div class="features-box">
                                 <div class="icon">
-                                    <i class="flaticon-shield-1"></i>
+                                    <BiCheckShield />
                                 </div>
                                 <h3>Learn from Industry Experts</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                                <a class="link-btn" href="authentication.html">Start Now!</a>
+                                <a class="link-btn" href="#">Start Now!</a>
                                 <div class="back-icon">
-                                    <i class="flaticon-shield-1"></i>
+                                    <BiCheckShield />
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-sm-6 col-md-6">
                             <div class="features-box">
                                 <div class="icon">
-                                    <i class="flaticon-world"></i>
+                                    <BiWorld />
                                 </div>
                                 <h3>Learn From Anywhere</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 </p>
-                                <a class="link-btn" href="authentication.html">Start Now!</a>
-                                <div class="back-icon">                                
+                                <a class="link-btn" href="#">Start Now!</a>
+                                <div class="back-icon">
+                                    <BiWorld />
                                 </div>
                             </div>
                         </div>

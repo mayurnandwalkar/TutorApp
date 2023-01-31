@@ -38,7 +38,7 @@ const RegsiterLoginForms = () => {
                                             </p>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-sm-6 lost-your-password-wrap"><a
-                                            class="lost-your-password" href="reset-password.html">Lost your
+                                            class="lost-your-password" href="#">Lost your
                                             password?</a></div>
                                     </div><button type="submit" disabled="">Log In</button>
                                 </form>

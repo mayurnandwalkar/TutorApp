@@ -28,10 +28,10 @@ const joinclassforstudent = () => {
                                         <input type="date" class="form-control" />
                                     </div>
                                     <div class="form-group"><label>City</label>
-                                        <input type="text" class="form-control" placeholder="City"  name="city" value="" />
+                                        <input type="text" class="form-control" placeholder="City" name="city" value="" />
                                     </div>
                                     <div class="form-group"><label>State</label>
-                                        <input type="text" class="form-control" placeholder="State"  name="state" value="" />
+                                        <input type="text" class="form-control" placeholder="State" name="state" value="" />
                                     </div>
                                     <button type="button" >Join</button>
                                 </form>

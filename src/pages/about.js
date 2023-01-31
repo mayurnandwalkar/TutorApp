@@ -19,8 +19,9 @@ const about = () => {
                         </div>
                         <div class="col-lg-7 col-md-12">
                             <div class="about-video-box">
-                                <div class="image"><img src="assets/images/about-img5.jpg" alt="image" /></div><a
-                                    class="video-btn popup-youtube" href="#play-video"><i class="flaticon-play"></i></a>
+                                <div class="image">
+                                    <img src="assets/images/about-img5.jpg" alt="image" />
+                                </div>
                                 <div class="shape10"><img src="assets/images/shape9.png" alt="image" /></div>
                             </div>
                         </div>
@@ -41,7 +42,7 @@ const about = () => {
                                     in over 128 countries, and a global reputation as a pioneer in the field of flexible
                                     learning. Our flexible teaching also means, if you travel often or need to relocate, you
                                     can continue to study wherever you go.</p><a class="default-btn"
-                                        href="authentication.html"><i class="flaticon-user"></i>Start For Free<span></span></a>
+                                        href="#"><i class="flaticon-user"></i>Start For Free<span></span></a>
                             </div>
                         </div>
                         <div class="col-lg-5 col-md-12">
@@ -53,20 +54,21 @@ const about = () => {
                 <div class="bulb"><img src="assets/images/bulb2.png" alt="image" /></div>
             </div>
             <div class="ptb-100">
-            <div class="premium-access-area">
-                <div class="container">
-                    <div class="premium-access-content"><span class="sub-title">Go at your own pace</span>
-                        <h2>Give their limitless potential unlimited access</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p><a class="default-btn" href="membership-levels.html"><i
-                                class="flaticon-user"></i> Give Premium Access <span></span></a>
+                <div class="premium-access-area">
+                    <div class="container">
+                        <div class="premium-access-content"><span class="sub-title">Go at your own pace</span>
+                            <h2>Give their limitless potential unlimited access</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.</p>
+                            <a class="default-btn" href="#">
+                                 Give Premium Access</a>
+                        </div>
                     </div>
+                    <div class="shape3"><img src="assets/images/shape3.png" alt="image" /></div>
+                    <div class="shape4"><img src="assets/images/shape4.png" alt="image" /></div>
+                    <div class="shape8"><img src="assets/images/shape7.png" alt="image" /></div>
                 </div>
-                <div class="shape3"><img src="assets/images/shape3.png" alt="image" /></div>
-                <div class="shape4"><img src="assets/images/shape4.png" alt="image" /></div>
-                <div class="shape8"><img src="assets/images/shape7.png" alt="image" /></div>
             </div>
-        </div>
             <Footer />
         </>
     )

@@ -10,20 +10,20 @@ const BlogsSection = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-blog-post-box">
                                 <div class="post-image">
-                                    <a class="d-block" href="single-blog-1.html">
+                                    <a class="d-block" href="#">
                                         <img src="assets/images/blog/blog1.jpg" alt="image" />
                                     </a>
                                 </div>
                                 <div class="post-content"><a class="category" href="#">Education</a>
                                     <h3>
-                                        <a href="single-blog-1.html">It’s Time To Think Differently About Homeschooling</a>
+                                        <a href="#">It’s Time To Think Differently About Homeschooling</a>
                                     </h3>
                                     <ul class="post-content-footer d-flex justify-content-between align-items-center">
                                         <li>
                                             <div class="post-author d-flex align-items-center">
                                                 <img src="assets/images/user1.jpg"
                                                     class="rounded-circle" alt="image" />
-                                                <span>Alex Morgan</span>
+                                                <span>Lorem Ipsum</span>
                                             </div>
                                         </li>
                                         <li> <BiCalendar /> April 30, 2020</li>
@@ -34,20 +34,20 @@ const BlogsSection = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-blog-post-box">
                                 <div class="post-image">
-                                    <a class="d-block" href="single-blog-1.html">
+                                    <a class="d-block" href="#">
                                         <img src="assets/images/blog/blog2.jpg" alt="image" />
                                     </a>
                                 </div>
                                 <div class="post-content"><a class="category" href="#">Education</a>
                                     <h3>
-                                        <a href="single-blog-1.html">It’s Time To Think Differently About Homeschooling</a>
+                                        <a href="#">It’s Time To Think Differently About Homeschooling</a>
                                     </h3>
                                     <ul class="post-content-footer d-flex justify-content-between align-items-center">
                                         <li>
                                             <div class="post-author d-flex align-items-center">
                                                 <img src="assets/images/user1.jpg"
                                                     class="rounded-circle" alt="image" />
-                                                <span>Alex Morgan</span>
+                                                <span>Lorem Ipsum</span>
                                             </div>
                                         </li>
                                         <li> <BiCalendar /> April 30, 2020</li>
@@ -58,20 +58,20 @@ const BlogsSection = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-blog-post-box">
                                 <div class="post-image">
-                                    <a class="d-block" href="single-blog-1.html">
+                                    <a class="d-block" href="#">
                                         <img src="assets/images/blog/blog3.jpg" alt="image" />
                                     </a>
                                 </div>
                                 <div class="post-content"><a class="category" href="#">Education</a>
                                     <h3>
-                                        <a href="single-blog-1.html">It’s Time To Think Differently About Homeschooling</a>
+                                        <a href="#">It’s Time To Think Differently About Homeschooling</a>
                                     </h3>
                                     <ul class="post-content-footer d-flex justify-content-between align-items-center">
                                         <li>
                                             <div class="post-author d-flex align-items-center">
                                                 <img src="assets/images/user1.jpg"
                                                     class="rounded-circle" alt="image" />
-                                                <span>Alex Morgan</span>
+                                                <span>Lorem Ipsum</span>
                                             </div>
                                         </li>
                                         <li> <BiCalendar /> April 30, 2020</li>
@@ -82,20 +82,20 @@ const BlogsSection = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-blog-post-box">
                                 <div class="post-image">
-                                    <a class="d-block" href="single-blog-1.html">
+                                    <a class="d-block" href="#">
                                         <img src="assets/images/blog/blog4.jpg" alt="image" />
                                     </a>
                                 </div>
                                 <div class="post-content"><a class="category" href="#">Education</a>
                                     <h3>
-                                        <a href="single-blog-1.html">It’s Time To Think Differently About Homeschooling</a>
+                                        <a href="#">It’s Time To Think Differently About Homeschooling</a>
                                     </h3>
                                     <ul class="post-content-footer d-flex justify-content-between align-items-center">
                                         <li>
                                             <div class="post-author d-flex align-items-center">
                                                 <img src="assets/images/user1.jpg"
                                                     class="rounded-circle" alt="image" />
-                                                <span>Alex Morgan</span>
+                                                <span>Lorem Ipsum</span>
                                             </div>
                                         </li>
                                         <li> <BiCalendar /> April 30, 2020</li>
@@ -106,20 +106,20 @@ const BlogsSection = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-blog-post-box">
                                 <div class="post-image">
-                                    <a class="d-block" href="single-blog-1.html">
+                                    <a class="d-block" href="#">
                                         <img src="assets/images/blog/blog5.jpg" alt="image" />
                                     </a>
                                 </div>
                                 <div class="post-content"><a class="category" href="#">Education</a>
                                     <h3>
-                                        <a href="single-blog-1.html">It’s Time To Think Differently About Homeschooling</a>
+                                        <a href="#">It’s Time To Think Differently About Homeschooling</a>
                                     </h3>
                                     <ul class="post-content-footer d-flex justify-content-between align-items-center">
                                         <li>
                                             <div class="post-author d-flex align-items-center">
                                                 <img src="assets/images/user1.jpg"
                                                     class="rounded-circle" alt="image" />
-                                                <span>Alex Morgan</span>
+                                                <span>Lorem Ipsum</span>
                                             </div>
                                         </li>
                                         <li> <BiCalendar /> April 30, 2020</li>
@@ -130,20 +130,20 @@ const BlogsSection = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-blog-post-box">
                                 <div class="post-image">
-                                    <a class="d-block" href="single-blog-1.html">
+                                    <a class="d-block" href="#">
                                         <img src="assets/images/blog/blog6.jpg" alt="image" />
                                     </a>
                                 </div>
                                 <div class="post-content"><a class="category" href="#">Education</a>
                                     <h3>
-                                        <a href="single-blog-1.html">It’s Time To Think Differently About Homeschooling</a>
+                                        <a href="#">It’s Time To Think Differently About Homeschooling</a>
                                     </h3>
                                     <ul class="post-content-footer d-flex justify-content-between align-items-center">
                                         <li>
                                             <div class="post-author d-flex align-items-center">
                                                 <img src="assets/images/user1.jpg"
                                                     class="rounded-circle" alt="image" />
-                                                <span>Alex Morgan</span>
+                                                <span>Lorem Ipsum</span>
                                             </div>
                                         </li>
                                         <li> <BiCalendar /> April 30, 2020</li>
@@ -154,20 +154,20 @@ const BlogsSection = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-blog-post-box">
                                 <div class="post-image">
-                                    <a class="d-block" href="single-blog-1.html">
+                                    <a class="d-block" href="#">
                                         <img src="assets/images/blog/blog7.jpg" alt="image" />
                                     </a>
                                 </div>
                                 <div class="post-content"><a class="category" href="#">Education</a>
                                     <h3>
-                                        <a href="single-blog-1.html">It’s Time To Think Differently About Homeschooling</a>
+                                        <a href="#">It’s Time To Think Differently About Homeschooling</a>
                                     </h3>
                                     <ul class="post-content-footer d-flex justify-content-between align-items-center">
                                         <li>
                                             <div class="post-author d-flex align-items-center">
                                                 <img src="assets/images/user1.jpg"
                                                     class="rounded-circle" alt="image" />
-                                                <span>Alex Morgan</span>
+                                                <span>Lorem Ipsum</span>
                                             </div>
                                         </li>
                                         <li> <BiCalendar /> April 30, 2020</li>
@@ -178,20 +178,20 @@ const BlogsSection = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-blog-post-box">
                                 <div class="post-image">
-                                    <a class="d-block" href="single-blog-1.html">
+                                    <a class="d-block" href="#">
                                         <img src="assets/images/blog/blog8.jpg" alt="image" />
                                     </a>
                                 </div>
                                 <div class="post-content"><a class="category" href="#">Education</a>
                                     <h3>
-                                        <a href="single-blog-1.html">It’s Time To Think Differently About Homeschooling</a>
+                                        <a href="#">It’s Time To Think Differently About Homeschooling</a>
                                     </h3>
                                     <ul class="post-content-footer d-flex justify-content-between align-items-center">
                                         <li>
                                             <div class="post-author d-flex align-items-center">
                                                 <img src="assets/images/user1.jpg"
                                                     class="rounded-circle" alt="image" />
-                                                <span>Alex Morgan</span>
+                                                <span>Lorem Ipsum</span>
                                             </div>
                                         </li>
                                         <li> <BiCalendar /> April 30, 2020</li>
@@ -202,20 +202,20 @@ const BlogsSection = () => {
                         <div class="col-lg-4 col-md-6">
                             <div class="single-blog-post-box">
                                 <div class="post-image">
-                                    <a class="d-block" href="single-blog-1.html">
+                                    <a class="d-block" href="#">
                                         <img src="assets/images/blog/blog9.jpg" alt="image" />
                                     </a>
                                 </div>
                                 <div class="post-content"><a class="category" href="#">Education</a>
                                     <h3>
-                                        <a href="single-blog-1.html">It’s Time To Think Differently About Homeschooling</a>
+                                        <a href="#">It’s Time To Think Differently About Homeschooling</a>
                                     </h3>
                                     <ul class="post-content-footer d-flex justify-content-between align-items-center">
                                         <li>
                                             <div class="post-author d-flex align-items-center">
                                                 <img src="assets/images/user1.jpg"
                                                     class="rounded-circle" alt="image" />
-                                                <span>Alex Morgan</span>
+                                                <span>Lorem Ipsum</span>
                                             </div>
                                         </li>
                                         <li> <BiCalendar /> April 30, 2020</li>

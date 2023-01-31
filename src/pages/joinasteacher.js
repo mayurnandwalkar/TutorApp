@@ -35,7 +35,7 @@ const joinasteacher = () => {
                                     </div>
                                     <div class="form-group">
                                         <label>Venue</label>
-                                        <input type="text" class="form-control" placeholder="Vanue" name="venue" value="" />
+                                        <input type="text" class="form-control" placeholder="Venue" name="venue" value="" />
                                     </div>
                                     <button type="submit" disabled="">Submit</button>
                                 </form>

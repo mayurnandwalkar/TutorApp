@@ -1,5 +1,12 @@
-
+import { useRouter } from "next/router"
+import { BiUser } from "react-icons/bi"
 const HeroSection = () => {
+    const router = useRouter()
+
+    const hanldeJoinClass = (e) => {
+        e.preventDefault();
+        router.push("/joinclassforstudent")
+    }
     return (
         <>
             <div class="main-banner-area">
@@ -10,8 +17,9 @@ const HeroSection = () => {
                                 <h1>The World&#x27;s Leading Distance-Learning Provider</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                                <a class="default-btn" href="#">
-                                    <i class="flaticon-user"></i>Join For Free<span></span>
+                                <a class="default-btn" href="#" onClick={hanldeJoinClass}><BiUser />
+                                    &nbsp;Join Class For Free
+                                    <span></span>
                                 </a>
                             </div>
                         </div>
