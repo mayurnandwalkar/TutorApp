@@ -15766,7 +15766,7 @@ blockquote:after {
     margin-bottom: 13px;
     color: #ededed;
     position: relative;
-    padding-left: 22px
+    /* padding-left: 22px */
 }
 
 .single-footer-widget .footer-contact-info li a {

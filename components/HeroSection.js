@@ -9,11 +9,11 @@ const HeroSection = () => {
     }
     return (
         <>
-            <div class="main-banner-area">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="main-banner-content-style-two">
+            <div className="main-banner-area">
+                <div className="container-fluid">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 col-md-12">
+                            <div className="main-banner-content-style-two">
                                 <h1>The World&#x27;s Leading Distance-Learning Provider</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                                     ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
@@ -23,15 +23,15 @@ const HeroSection = () => {
                                 </a>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12">
-                            <div class="main-banner-image-style-two"><img src="assets/images/banner-img4.png" alt="image" /></div>
+                        <div className="col-lg-6 col-md-12">
+                            <div className="main-banner-image-style-two"><img src="assets/images/banner-img4.png" alt="image" /></div>
                         </div>
                     </div>
                 </div>
-                <div class="banner-shape1"><img src="assets/images/banner-shape1.png" alt="image" /></div>
-                <div class="banner-shape2"><img src="assets/images/banner-shape2.png" alt="image" /></div>
-                <div class="banner-shape3"><img src="assets/images/banner-shape3.png" alt="image" /></div>
-                <div class="bulb"><img src="assets/images/bulb.png" alt="image" /></div>
+                <div className="banner-shape1"><img src="assets/images/banner-shape1.png" alt="image" /></div>
+                <div className="banner-shape2"><img src="assets/images/banner-shape2.png" alt="image" /></div>
+                <div className="banner-shape3"><img src="assets/images/banner-shape3.png" alt="image" /></div>
+                <div className="bulb"><img src="assets/images/bulb.png" alt="image" /></div>
             </div>
         </>)
 }

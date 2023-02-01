@@ -14,50 +14,50 @@ const Header = () => {
     }
     return (
         <>
-            <div id="navbar" class="navbar-area">
-                <div class="edemy-nav">
-                    <div class="container-fluid">
-                        <div class="navbar navbar-expand-lg navbar-light">
-                            <Link href={"/"} class="navbar-brand">
+            <div id="navbar" className="navbar-area">
+                <div className="edemy-nav">
+                    <div className="container-fluid">
+                        <div className="navbar navbar-expand-lg navbar-light">
+                            <Link href={"/"} className="navbar-brand">
                                 <h2><b>Tutors</b></h2>
                             </Link>
-                            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+                            <button className="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="icon-bar top-bar"></span>
-                                <span class="icon-bar middle-bar"></span>
-                                <span class="icon-bar bottom-bar"></span>
+                                <span className="icon-bar top-bar"></span>
+                                <span className="icon-bar middle-bar"></span>
+                                <span className="icon-bar bottom-bar"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <form class="search-box">
+                            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                                <form className="search-box">
                                 </form>
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <Link href={"/"} class="nav-link active">Home</Link>
+                                <ul className="navbar-nav">
+                                    <li className="nav-item">
+                                        <Link href={"/"} className="nav-link active">Home</Link>
                                     </li>
-                                    <li class="nav-item">
-                                        <Link href={"/about"} class="nav-link">About Us</Link>
+                                    <li className="nav-item">
+                                        <Link href={"/about"} className="nav-link">About Us</Link>
                                     </li>
-                                    <li class="nav-item">
-                                        <Link href={"/blogs"} class="nav-link">Blogs</Link>
+                                    <li className="nav-item">
+                                        <Link href={"/blogs"} className="nav-link">Blogs</Link>
                                     </li>
-                                    <li class="nav-item">
-                                        <Link href={"/contact"} class="nav-link">Contact Us</Link>
+                                    <li className="nav-item">
+                                        <Link href={"/contact"} className="nav-link">Contact Us</Link>
                                     </li>
-                                    <li class="nav-item">
-                                        <Link class="nav-link" href={""}>Schduler</Link>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <Link href={"/joinasteacher"} class="nav-link">Create Class</Link>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" href={""}>Schduler</Link>
+                                        <ul className="dropdown-menu">
+                                            <li className="nav-item">
+                                                <Link href={"/joinasteacher"} className="nav-link">Create className</Link>
                                             </li>
-                                            <li class="nav-item">
-                                                <Link href={"/joinclassforstudent"} class="nav-link">Join Class</Link>
+                                            <li className="nav-item">
+                                                <Link href={"/joinclassforstudent"} className="nav-link">Join Class</Link>
                                             </li>
                                         </ul>
                                     </li>
                                 </ul>
-                                <div class="others-option d-flex align-items-center">
-                                    <div class="option-item">
-                                        <a class="default-btn" href="#" onClick={handleLogRefButton}>Login/Register</a>
+                                <div className="others-option d-flex align-items-center">
+                                    <div className="option-item">
+                                        <a className="default-btn" href="#" onClick={handleLogRefButton}>Login/Register</a>
                                     </div>
                                 </div>
                             </div>
