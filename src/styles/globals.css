@@ -1,0 +1,31 @@
+ .navbar-area {
+     background-color: #02075D !important;
+ }
+
+ .navbar-area a {
+     color: white !important;
+ }
+
+ .navbar-area a h2 {
+     color: white !important;
+ }
+
+ .main-banner-area {
+     background-color: black;
+ }
+
+ .main-banner-area h1 {
+     color: white !important;
+ }
+
+ .main-banner-area p {
+     color: white !important;
+ }
+
+ .footer-area {
+     background-color: #02075D !important;
+ }
+
+ .footer-bottom-area{
+    border-top: 2px solid #1c206e !important;
+ }
