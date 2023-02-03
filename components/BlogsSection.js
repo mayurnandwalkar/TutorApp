@@ -241,13 +241,7 @@ const BlogsSection = () => {
                     </div>
                 </div>
             </div>
-            {penguins?.penguins?.map((iteam) => {
-                return (
-                    <>
-                        <h1>{console.log(iteam)}</h1>{" "}
-                    </>
-                );
-            })}
+
         </>
     )
 }

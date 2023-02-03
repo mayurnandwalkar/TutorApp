@@ -1,20 +1,28 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router'
-import { BiSearch } from "react-icons/bi";
-
-
+import Draggable from 'react-draggable';
+import React, { useState } from "react";
 
 const Header = () => {
     const router = useRouter()
-
+    const [isLoading, setIsLoading] = useState(false);
+    const toggleIsLoading = () => {
+        console.log("dfsf")
+        setIsLoading(current => !current);
+        var para = document.getElementById("body-cst");
+        para.classList.toggle("darkMode")
+    };
     const handleLogRefButton = (e) => {
         e.preventDefault();
         console.log("handleLogRefButton")
         router.push('/authentication')
     }
+
     return (
         <>
+
             <div id="navbar" className="navbar-area">
+
                 <div className="edemy-nav">
                     <div className="container-fluid">
                         <div className="navbar navbar-expand-lg navbar-light">
@@ -32,6 +40,18 @@ const Header = () => {
                                 </form>
                                 <ul className="navbar-nav">
                                     <li className="nav-item">
+                                        <Link href={""} className="nav-link" >
+                                            <Draggable handle="#handle" axis='x'>
+                                            <div className="box ">
+                                                <div id="handle" className='items-center'>
+                                                    <div className={`darklighttoggle ${isLoading ? "darklighttoggle2" : ""}`} onClick={toggleIsLoading}></div>
+                                                </div>
+                                            </div>
+                                            </Draggable>
+                                        </Link>
+                                    </li>
+
+                                    <li className="nav-item">
                                         <Link href={"/"} className="nav-link active">Home</Link>
                                     </li>
                                     <li className="nav-item">
@@ -47,7 +67,7 @@ const Header = () => {
                                         <Link className="nav-link" href={""}>Schduler</Link>
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href={"/joinasteacher"} className="nav-link">Create className</Link>
+                                                <Link href={"/joinasteacher"} className="nav-link">Create Class</Link>
                                             </li>
                                             <li className="nav-item">
                                                 <Link href={"/joinclassforstudent"} className="nav-link">Join Class</Link>
@@ -60,10 +80,15 @@ const Header = () => {
                                         <a className="default-btn" href="#" onClick={handleLogRefButton}>Login/Register</a>
                                     </div>
                                 </div>
+
                             </div>
+
+
+
                         </div>
                     </div>
                 </div>
+
             </div>
         </>
     )

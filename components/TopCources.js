@@ -93,8 +93,9 @@ const TopCources = () => {
                         <div className="col-lg-12 col-md-12">
                             <div className="courses-info">
                                 <p>Enjoy the top notch learning methods and achieve next level skills! You are the creator
-                                    of your own career &amp; we will guide you through that. <a
-                                        href="#">Join Free Now.</a>.</p>
+                                    of your own career &amp; we will guide you through that. 
+                                    <a href="#">Join Free Now.</a>
+                                </p>
                             </div>
                         </div>
                     </div>

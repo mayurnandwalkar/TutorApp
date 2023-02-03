@@ -11,7 +11,7 @@ export default function Document() {
       <link rel="stylesheet" href="assets/css/tutorapp.css" data-n-g="" />
       <link rel="stylesheet" href="assets/css/custom.css" data-n-g="" />
 
-      <body>
+      <body id='body-cst'>
         <Main />
         <NextScript />
       </body>

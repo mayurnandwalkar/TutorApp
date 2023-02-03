@@ -20,7 +20,7 @@ const RegsiterLoginForms = () => {
                                         value="" /></div>
                                     <p class="description">The password should be at least eight characters long. To make it
                                         stronger, use upper and lower case letters, numbers, and symbols like ! &quot; ? $ %
-                                        ^ &amp; )</p><button type="submit" disabled="">Register</button>
+                                        ^ &amp;</p><button type="submit" disabled="">Register</button>
                                 </form>
                             </div>
                         </div>

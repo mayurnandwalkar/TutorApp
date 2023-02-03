@@ -31,30 +31,6 @@ const about = () => {
                 <div className="shape4"><img src="assets/images/shape4.png" alt="image" /></div>
                 <div className="shape2"><img src="assets/images/shape2.png" alt="image" /></div>
             </div>
-            <div className="get-instant-courses-area-two bg-f9fbff">
-                <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-lg-7 col-md-12">
-                            <div className="get-instant-courses-content-style-two"><span className="sub-title">GET INSTANT ACCESS TO
-                                THE FREE</span>
-                                <h2>Self Development Course</h2>
-                                <p>With The Open University you can study whenever and wherever you choose. We have students
-                                    in over 128 countries, and a global reputation as a pioneer in the field of flexible
-                                    learning. Our flexible teaching also means, if you travel often or need to relocate, you
-                                    can continue to study wherever you go.</p><a className="default-btn"
-                                        href="#"><i className="flaticon-user"></i>Start For Free<span></span></a>
-                            </div>
-                        </div>
-                        <div className="col-lg-5 col-md-12">
-                            <div className="get-instant-courses-image-style-two"><img src="assets/images/setting.png" alt="image" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="bulb">
-                    <img src="assets/images/bulb2.png" alt="image" />
-                </div>
-            </div>
             <div className="ptb-100">
                 <div className="premium-access-area">
                     <div className="container">
@@ -72,9 +48,36 @@ const about = () => {
                     <div className="shape8"><img src="assets/images/shape7.png" alt="image" /></div>
                 </div>
             </div>
+            <div className="get-instant-courses-area-two bg-f9fbff">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-7 col-md-12">
+                            <div className="get-instant-courses-content-style-two"><span className="sub-title">GET INSTANT ACCESS TO
+                                THE FREE</span>
+                                <h2>Self Development Course</h2>
+                                <p>With The Open University you can study whenever and wherever you choose. We have students
+                                    in over 128 countries, and a global reputation as a pioneer in the field of flexible
+                                    learning. Our flexible teaching also means, if you travel often or need to relocate, you
+                                    can continue to study wherever you go.</p><a className="default-btn"
+                                        href="#">Start For Free<span></span></a>
+                            </div>
+                        </div>
+                        <div className="col-lg-5 col-md-12">
+                            <div className="get-instant-courses-image-style-two"><img src="assets/images/setting.png" alt="image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="bulb">
+                    <img src="assets/images/bulb2.png" alt="image" />
+                </div>
+            </div>
+
             <Footer />
         </>
     )
 }
 
 export default about
+
+
