@@ -12,13 +12,12 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="single-footer-widget">
                                 <h2 className="text-white">Tutor</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                                </p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                 <ul class="social-link">
-                                    <li><a href="#" class="d-block" target="_blank"><BsFacebook /></a></li>
-                                    <li><a href="#" class="d-block" target="_blank"><BsTwitter /> </a></li>
-                                    <li><a href="#" class="d-block" target="_blank"><BsLinkedin /></a></li>
-                                    <li><a href="#" class="d-block" target="_blank"> <BsInstagram /></a></li>
+                                    <li><a href="#" class="d-block"><BsFacebook /></a></li>
+                                    <li><a href="#" class="d-block"><BsTwitter /> </a></li>
+                                    <li><a href="#" class="d-block"><BsLinkedin /></a></li>
+                                    <li><a href="#" class="d-block"> <BsInstagram /></a></li>
 
 
                                 </ul>
