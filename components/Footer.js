@@ -51,9 +51,9 @@ const Footer = () => {
                             <div className="single-footer-widget">
                                 <h3>Address</h3>
                                 <ul class="footer-contact-info">
-                                    <li><BiMap />&nbsp;&nbsp;Lorem Ipsum is simply dummy text of USA </li>
-                                    <li><BiEnvelope />&nbsp;&nbsp;<a href="#"><span className="__cf_email__" data-cfemail="">test@gmail.com</span></a></li>
-                                    <li><BiPhone />&nbsp;&nbsp;<a href="tel:+557854578964">+55 785 4578964</a></li>
+                                    <li><BiMap />Lorem Ipsum is simply dummy text of USA </li>
+                                    <li><BiEnvelope /><a href="#"><span className="__cf_email__" data-cfemail="">test@gmail.com</span></a></li>
+                                    <li><BiPhone /><a href="tel:+557854578964">+55 785 4578964</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Footer = () => {
                             <div className="col-lg-6 col-md-6">
                                 <ul>
                                     <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Terms &amp; Conditions</a></li>
+                                    <li><a href="#">Terms and Conditions</a></li>
                                 </ul>
                             </div>
                         </div>
