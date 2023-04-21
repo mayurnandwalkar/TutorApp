@@ -1,6 +1,7 @@
+import Image from "next/image"
 import Footer from "./Footer"
 import Header from "./Header"
-
+import BanerImf from 'assets/images/banner-img3.png'
 const JoinClassSection = () => {
     return (
         <>
@@ -36,7 +37,7 @@ const JoinClassSection = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12">
-                            <img src="assets/images/banner-img3.png" />
+                            <Image src={BanerImf} />
                         </div>
                     </div>
                 </div>

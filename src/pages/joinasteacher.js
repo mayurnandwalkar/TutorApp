@@ -1,5 +1,6 @@
 import Footer from "components/Footer"
 import Header from "components/Header"
+import Image from "next/image"
 
 
 const joinasteacher = () => {
@@ -10,7 +11,7 @@ const joinasteacher = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
-                            <img src="assets/images/strategy.png" />
+                            <Image src="assets/images/strategy.png" />
                         </div>
                         <div className="col-lg-6 col-md-12">
                             <div className="login-form">

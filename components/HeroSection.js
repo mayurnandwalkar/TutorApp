@@ -1,5 +1,10 @@
+import Image from "next/image"
 import { useRouter } from "next/router"
 import { BiUser } from "react-icons/bi"
+import Shpa1 from 'assets/images/banner-shape1.png'
+import Shpa2 from 'assets/images/banner-shape2.png'
+import Shpa3 from 'assets/images/banner-shape3.png'
+import BlubImg from 'assets/images/bulb.png'
 const HeroSection = () => {
     const router = useRouter()
 
@@ -28,10 +33,10 @@ const HeroSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="banner-shape1"><img src="assets/images/banner-shape1.png" alt="image" /></div>
-                <div className="banner-shape2"><img src="assets/images/banner-shape2.png" alt="image" /></div>
-                <div className="banner-shape3"><img src="assets/images/banner-shape3.png" alt="image" /></div>
-                <div className="bulb"><img src="assets/images/bulb.png" alt="image" /></div>
+                <div className="banner-shape1"><Image src={Shpa1} alt="image" /></div>
+                <div className="banner-shape2"><Image src={Shpa2} alt="image" /></div>
+                <div className="banner-shape3"><Image src={Shpa3} alt="image" /></div>
+                <div className="bulb"><Image src={BlubImg} alt="image" /></div>
             </div>
         </>)
 }

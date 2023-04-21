@@ -1,5 +1,6 @@
 import Footer from "components/Footer"
 import Header from "components/Header"
+import Image from "next/image"
 
 const joinclassNameforstudent = () => {
     return (
@@ -38,7 +39,7 @@ const joinclassNameforstudent = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12">
-                            <img src="assets/images/banner-img3.png" />
+                            <Image src="assets/images/banner-img3.png" />
                         </div>
                     </div>
                 </div>

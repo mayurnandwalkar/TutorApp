@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { BiBook, BiGroup } from "react-icons/bi"
 
 const TopCources = () => {
@@ -15,7 +16,7 @@ const TopCources = () => {
                             <div className="single-courses-box">
                                 <div className="courses-image">
                                     <a class="d-block image" href="#">
-                                        <img src="assets/images/video-img2.jpg" alt="The Complete Digital Marketing Course - 12 Courses in 1" /></a>
+                                        <Image src="assets/images/video-Image2.jpg" alt="The Complete Digital Marketing Course - 12 Courses in 1" /></a>
                                     <a class="fav" href="#">
                                         <i class="flaticon-heart"></i>
                                     </a>
@@ -23,7 +24,7 @@ const TopCources = () => {
                                 </div>
                                 <div className="courses-content">
                                     <div className="course-author d-flex align-items-center">
-                                        <img src="assets/images/user1.jpg" class="rounded-circle" alt="EnvyTheme" />
+                                        <Image src="assets/images/user1.jpg" class="rounded-circle" alt="EnvyTheme" />
                                         <span>EnvyTheme</span>
                                     </div>
                                     <h3 title="The Complete Digital Marketing Course - 12 Courses in 1">
@@ -43,13 +44,13 @@ const TopCources = () => {
                             <div className="single-courses-box">
                                 <div className="courses-image">
                                     <a class="d-block image" href="#">
-                                        <img src="assets/images/video-img1.jpg" alt="The Python Mega Course: Build 10 Real World Applications" /></a>
+                                        <Image src="assets/images/video-Image1.jpg" alt="The Python Mega Course: Build 10 Real World Applications" /></a>
                                     <a class="fav" href="#"><i class="flaticon-heart"></i></a>
                                     <div className="price shadow">$15</div>
                                 </div>
                                 <div className="courses-content">
                                     <div className="course-author d-flex align-items-center">
-                                        <img src="assets/images/user1.jpg" class="rounded-circle" alt="EnvyTheme" />
+                                        <Image src="assets/images/user1.jpg" class="rounded-circle" alt="EnvyTheme" />
                                         <span>EnvyTheme</span>
                                     </div>
                                     <h3 title="The Python Mega Course: Build 10 Real World Applications"><a
@@ -68,13 +69,13 @@ const TopCources = () => {
                             <div className="single-courses-box">
                                 <div className="courses-image"><a class="d-block image"
                                     href="#">
-                                    <img src="assets/images/success-story.jpg" alt="The Complete React Js &amp; Redux Course - Build Modern Web Apps" /></a>
+                                    <Image src="assets/images/success-story.jpg" alt="The Complete React Js &amp; Redux Course - Build Modern Web Apps" /></a>
                                     <a class="fav" href="#"><i class="flaticon-heart"></i></a>
                                     <div className="price shadow">$16</div>
                                 </div>
                                 <div className="courses-content">
                                     <div className="course-author d-flex align-items-center">
-                                        <img src="assets/images/user1.jpg" class="rounded-circle" alt="EnvyTheme" />
+                                        <Image src="assets/images/user1.jpg" class="rounded-circle" alt="EnvyTheme" />
                                         <span>EnvyTheme</span>
                                     </div>
                                     <h3 title="The Complete React Js &amp; Redux Course - Build Modern Web Apps"><a
@@ -93,7 +94,7 @@ const TopCources = () => {
                         <div className="col-lg-12 col-md-12">
                             <div className="courses-info">
                                 <p>Enjoy the top notch learning methods and achieve next level skills! You are the creator
-                                    of your own career &amp; we will guide you through that. 
+                                    of your own career &amp; we will guide you through that.
                                     <a href="#">Join Free Now.</a>
                                 </p>
                             </div>

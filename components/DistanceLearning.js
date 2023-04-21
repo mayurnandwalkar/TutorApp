@@ -1,5 +1,9 @@
+import Image from "next/image"
 import { useRouter  } from "next/router"
 import { BiBookOpen, BiMeteor, BiRocket, BiTimeFive, BiUser } from "react-icons/bi"
+import BulbImg from 'assets/images/bulb.png'
+
+
 
 const DistanceLearning = () => {
     const router = useRouter()
@@ -14,7 +18,7 @@ const DistanceLearning = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
-                            <div className="about-image"><img src="assets/images/about-img12.png" alt="image" /></div>
+                            <div className="about-image"><Image src={AboutImg12} alt="image" /></div>
                         </div>
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content"><span className="sub-title">DISTANCE LEARNING</span>
@@ -36,7 +40,7 @@ const DistanceLearning = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bulb"><img src="assets/images/bulb.png" alt="image" /></div>
+                <div className="bulb"><Image src={BulbImg} alt="image" /></div>
             </div>
         </>
     )

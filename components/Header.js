@@ -12,11 +12,13 @@ const Header = () => {
         var para = document.getElementById("body-cst");
         para.classList.toggle("darkMode")
     };
+
     const handleLogRefButton = (e) => {
         e.preventDefault();
         console.log("handleLogRefButton")
         router.push('/authentication')
     }
+
 
     return (
         <>
@@ -42,11 +44,11 @@ const Header = () => {
                                     <li className="nav-item">
                                         <Link href={""} className="nav-link" >
                                             <Draggable handle="#handle" axis='x'>
-                                            <div className="box ">
-                                                <div id="handle" className='items-center'>
-                                                    <div className={`darklighttoggle ${isLoading ? "darklighttoggle2" : ""}`} onClick={toggleIsLoading}></div>
+                                                <div className="box ">
+                                                    <div id="handle" className='items-center'>
+                                                        <div className={`darklighttoggle ${isLoading ? "darklighttoggle2" : ""}`} onClick={toggleIsLoading}></div>
+                                                    </div>
                                                 </div>
-                                            </div>
                                             </Draggable>
                                         </Link>
                                     </li>
